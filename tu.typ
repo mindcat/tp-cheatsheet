@@ -108,17 +108,15 @@
 }
 
 #let render-word-entry(word, lang) = {
-  
-
   stack(
     dir: ltr,
-    spacing: 0.5em,
-    [#box(width: 2em, [
-      #align(center + horizon)[#text(size: 25pt)[#penpo.pona.sitelen[#word.lemma]]]
+    spacing: 0.8em,
+    [#box(width: 1.5em, [
+      #align(center + horizon)[#text(size: 15pt)[#penpo.pona.sitelen[#word.lemma]]]
     ])],
     stack(dir: ttb, spacing: 0.2em,
-      [=== #word.lemma],
-      [#par(leading: 0.2em, )[#text(size: 9pt)[#word.definitions.at(lang, default: "Definition missing for " + lang)]]]
+      [#text(size: 6pt)[*#word.lemma*]],
+      [#par(leading: 0.2em, )[#text(size: 6pt)[#word.definitions.at(lang, default: "Definition missing for " + lang)]]]
     ),
   )
 }
@@ -146,7 +144,7 @@
           #v(-0.5em)
           #stack(
             dir: ttb,
-            spacing: 1em,
+            spacing: 0.8em,
             for word in filtered-words {
               render-word-entry(word, lang)
             }

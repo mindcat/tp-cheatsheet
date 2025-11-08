@@ -5,9 +5,9 @@
 #let palette = flavor.colors
 
 #set page(columns: 4, margin: (bottom: 1in, rest: 0.5in))
-#set text(size: 10pt)
+#set text(font: "Fira Sans", size: 8pt)
 #set par(spacing: 0.8em, leading: 0.4em)
-// #set text(font: "Fira Sans")
+
 #show link: set text(fill: palette.blue.rgb)
 
 #set page(footer: context {
@@ -16,6 +16,8 @@
     align(center)[This cheat sheet was built by #[#show: pp => [#penpo.pona.sitelen[#pp]];#penpo.nimi-ijo((Eli: "ilo lawa jasima"))#link("https://github.com/mindcat")[jan Eli]]#h(0.4em) in #link("https://github.com/typst/typst")[Typst], and was only possible because of #link("https://github.com/mindcat/penpo.typ")[#penpo.pona.sitelen[penpo] penpo]. Front sheet \ (usage) credit: #link("https://github.com/zhukant/toki-pona-cheatsheet-suko")[#[#show: pp => [#penpo.pona.sitelen[#pp]];#penpo.nimi-ijo((Suko: "sitelen uta kule olin"))jan Suko]], based on #link("https://blinry.org/toki-pona-cheat-sheet/")[blinry] & #link("https://jansa-tp.github.io/cheatsheet")[#[#show: pp => [#penpo.pona.sitelen[#pp]];#penpo.nimi-ijo((Sa: "sona ala"))jan Sa]]. Back sheet (vocabulary) credit: #link("https://tenpi.li/tokipona/catdict")[#[#show: pp => [#penpo.pona.sitelen[#pp]];#penpo.nimi-ijo((Tenpi: "tonsi en nanpa pan ijo"))jan Tenpi]]. ]
   }
 })
+
+test
 
 // #[
 //   #show: pp => [
