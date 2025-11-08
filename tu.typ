@@ -144,7 +144,7 @@
           #v(-0.5em)
           #stack(
             dir: ttb,
-            spacing: 0.8em,
+            spacing: 1em,
             for word in filtered-words {
               render-word-entry(word, lang)
             }
