@@ -17,8 +17,6 @@
   }
 })
 
-test
-
 // #[
 //   #show: pp => [
 //     #penpo.pona.sitelen[#pp]
@@ -37,6 +35,9 @@ test
 
 #pagebreak()
 
-#set page(columns: 4, margin: 0.5in)
+// #set page(columns: 7, margin: 0.5in, flipped: true)
+#set page(columns: 5, margin: 0.5in, flipped: false)
+
+#set columns(gutter: 1em)
 
 #include "tu.typ"

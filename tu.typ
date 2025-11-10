@@ -133,14 +133,16 @@
         paint: cat-color,
         thickness: 2pt
       ),
-      radius: 4pt,
+      radius: 3pt,
       [
-        #block(fill: cat-color, width: 100%, height: 2em, [
+        #block(fill: cat-color, width: 100%, height: 1.5em, sticky: true, [
           #align(center + horizon)[
-            #text(palette.base.rgb)[== #cat-label]
+            #text(palette.base.rgb)[=== #cat-label]
           ]
         ])
-        #block(inset: (x: 8pt, bottom: 8pt, top: 4pt), [
+        #block(inset: (left: 6pt, bottom: 6pt, top: 4pt, right: 20pt), 
+        // sticky: true, 
+        [
           #v(-0.5em)
           #stack(
             dir: ttb,
@@ -159,5 +161,5 @@
 
 #for category-id in semantic-data.semantic.order {
   generate-category-block(category-id, semantic-data, words-data, lang-setting)
-  v(1em)
+  v(0.5em)
 }
