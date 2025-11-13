@@ -1,4 +1,5 @@
 #import "@preview/penpo:0.1.0"
+#import "@preview/flagada:1.0.1" : flag
 #import "@preview/catppuccin:1.0.1": catppuccin, flavors, get-flavor
 #show: catppuccin.with(flavors.latte)
 #let flavor = get-flavor("latte")
@@ -108,6 +109,7 @@
 }
 
 #let render-word-entry(word, lang) = {
+  // block(breakable: false)[
   stack(
     dir: ltr,
     spacing: 0.8em,
@@ -115,10 +117,13 @@
       #align(center + horizon)[#text(size: 15pt)[#penpo.pona.sitelen[#word.lemma]]]
     ])],
     stack(dir: ttb, spacing: 0.2em,
-      [#text(size: 6pt)[*#word.lemma*]],
+      [#text(size: 6pt)[*#word.lemma*]#box(width: 1fr)[]#text(size: 5pt)[#word.origin.word 
+      #if word.origin.iso.len() == 2 {flag(word.origin.iso, height: 1em)}
+      ]#box(width: 0.2em)[]],
       [#par(leading: 0.2em, )[#text(size: 6pt)[#word.definitions.at(lang, default: "Definition missing for " + lang)]]]
     ),
   )
+  // ]
 }
 
 #let generate-category-block(category-id, category-data, words, lang) = {
@@ -141,7 +146,7 @@
           ]
         ])
         #block(inset: (left: 6pt, bottom: 6pt, top: 4pt, right: 20pt), 
-        // sticky: true, 
+        sticky: true, 
         [
           #v(-0.5em)
           #stack(
