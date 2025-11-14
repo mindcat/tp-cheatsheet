@@ -200,14 +200,68 @@ Loanwords should try to follow Toki Pona's rules for syllables:
 
 == The word #penpo.pona.sitelen[o]
 
+You can use #penpo.pona.sitelen[o] before a verb to turn it into a command.
 
+#penpo.pona.sitelen[o kute] – _Listen!_
+
+#penpo.pona.sitelen[o moku telo] – _Please drink._
+
+You can use #penpo.pona.sitelen[o] after a subject to address them.
+
+#penpo.nimi-ijo((Eten: "esun telo en nasa"))
+
+#penpo.pona.sitelen[jan Eten o] - _Eten! (Aiden/Aden)_
+
+You can place #penpo.pona.sitelen[o] between subject and predicate to express a wish, desire, request, etc. 
+
+#penpo.pona.sitelen[pona o tawa sina] - _Joy to you._
+
+#penpo.pona.sitelen[mi o pali] - _I should be working._
+
+Or it can also be a contraction of the first two uses.
+
+#penpo.nimi-ijo((Sasa: "sewi awen suwi alasa"))
+
+#penpo.pona.sitelen[soweli Sasa o moku] - _Eat, Sasa. (Sasza)_
 
 == Preverbs
 
+Preverbs go before verbs to
+modify their meaning.
 
+#penpo.pona.sitelen[mi ken sitelen] - _I can write._
+
+#penpo.pona.sitelen[waso lili li wile kama suli] - _The small bird wants to become big._
+
+The words #penpo.pona.sitelen[wile], #penpo.pona.sitelen[kama], #penpo.pona.sitelen[sona], #penpo.pona.sitelen[lukin], #penpo.pona.sitelen[ken], #penpo.pona.sitelen[awen], and #penpo.pona.sitelen[alasa] can be preverbs.
 
 == Context
 
+The word #penpo.pona.sitelen[la] can be used to
+mark the context of a sentence:
 
+a #penpo.pona.sitelen[la] b means: In the context of a, b. This can mean time, cause, topic, etc.
+
+#penpo.pona.sitelen[sina lon poka mi la mi pilin pona] - _When you are by my side, I feel good._
+
+The word #penpo.pona.sitelen[la] is often used to move a prepositional phrase to the front of the sentence.
+
+#penpo.pona.sitelen[sama mi la sina mute] - _Just like me, you know a lot._
+
+#penpo.pona.sitelen[tan seme la sina seli] - _Why are you hot?_
+
+The preposition #penpo.pona.sitelen[lon] can be omitted in this case.
+
+#penpo.pona.sitelen[tenpo pimeja la mi lape] - _I sleep [at] night._
 
 == Numbers
+
+Combine number words to add them up.
+
+For exmaple, #penpo.pona.sitelen[wan] is 1, #penpo.pona.sitelen[tu] is 2, #penpo.pona.sitelen[luka] is 5, #penpo.pona.sitelen[mute] is 20, #penpo.pona.sitelen[ale] is 100, #penpo.pona.sitelen[tu tu] is 4, and #penpo.pona.sitelen[luka tu wan] is 8.
+
+The word #penpo.pona.sitelen[nanpa] can be used to mark ordinals.
+
+#penpo.pona.sitelen[lipu nanpa wan li pona] - _The first book is good._
+
+#penpo.pona.sitelen[nasin nanpa mute luka wan] - _26th Street._

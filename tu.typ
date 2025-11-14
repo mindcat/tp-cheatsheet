@@ -118,7 +118,7 @@
     ])],
     stack(dir: ttb, spacing: 0.2em,
       [#text(size: 6pt)[*#word.lemma*]#box(width: 1fr)[]#text(size: 5pt)[#word.origin.word 
-      #if word.origin.iso.len() == 2 {flag(word.origin.iso, height: 1em)}
+      #if word.origin.iso.len() == 2 {flag(word.origin.iso, height: 0.65em)}
       ]#box(width: 0.2em)[]],
       [#par(leading: 0.2em, )[#text(size: 6pt)[#word.definitions.at(lang, default: "Definition missing for " + lang)]]]
     ),
