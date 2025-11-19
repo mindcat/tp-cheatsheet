@@ -258,7 +258,7 @@ The preposition #penpo.pona.sitelen[lon] can be omitted in this case.
 
 Combine number words to add them up.
 
-For exmaple, #penpo.pona.sitelen[wan] is 1, #penpo.pona.sitelen[tu] is 2, #penpo.pona.sitelen[luka] is 5, #penpo.pona.sitelen[mute] is 20, #penpo.pona.sitelen[ale] is 100, #penpo.pona.sitelen[tu tu] is 4, and #penpo.pona.sitelen[luka tu wan] is 8.
+For example, #penpo.pona.sitelen[wan] is 1, #penpo.pona.sitelen[tu] is 2, #penpo.pona.sitelen[luka] is 5, #penpo.pona.sitelen[mute] is 20, #penpo.pona.sitelen[ale] is 100, #penpo.pona.sitelen[tu tu] is 4, and #penpo.pona.sitelen[luka tu wan] is 8.
 
 The word #penpo.pona.sitelen[nanpa] can be used to mark ordinals.
 

@@ -1,3 +1,6 @@
 [submodule "tp-dataset"]
 	path = tp-dataset
 	url = https://github.com/mindcat/tp-dataset
+[submodule "flagada"]
+	path = flagada
+	url = https://github.com/mindcat/flagada

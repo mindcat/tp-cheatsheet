@@ -1,5 +1,6 @@
 #import "@preview/penpo:0.1.0"
-#import "@preview/flagada:1.0.1" : flag
+// #import "@preview/flagada:1.0.1" : flag
+#import "flagada/flags.typ": flag
 #import "@preview/catppuccin:1.0.1": catppuccin, flavors, get-flavor
 #show: catppuccin.with(flavors.latte)
 #let flavor = get-flavor("latte")
