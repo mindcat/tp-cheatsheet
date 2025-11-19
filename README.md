@@ -2,4 +2,4 @@
 
 **IN PROGRESS**
 
-[PDF is generated here]()
+[PDF is generated here](https://github.com/mindcat/tp-cheatsheet/blob/main/sona-ku-pona.pdf)
