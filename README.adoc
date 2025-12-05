@@ -9,7 +9,7 @@
 |Sitelen: | Pona | Lasina | Kanata | Anku | Kijes | Sewijen | Tewanakali |Alapi |Kililisa | Elina
 
 | English: 
-| link:{https://github.com/mindcat/tp-cheatsheet/tree/main/out}/sona-ku-pona-en-sitelen.pdf[PDF] / link:{https://github.com/mindcat/tp-cheatsheet/tree/main/out}/sona-ku-pona-en-sitelen-4print.pdf[Print]
+| link:{https://github.com/mindcat/tp-cheatsheet/blob/main/out/sona-ku-pona-en-sitelen.pdf}[PDF] / link:{https://github.com/mindcat/tp-cheatsheet/tree/main/out}/sona-ku-pona-en-sitelen-4print.pdf[Print]
 | 
 | link:{https://github.com/mindcat/tp-cheatsheet/tree/main/out}/sona-ku-pona-en-kanata-ALPHA.pdf[PDF*] / link:{https://github.com/mindcat/tp-cheatsheet/tree/main/out}/sona-ku-pona-en-kanata-4print-ALPHA.pdf[Print*]
 | 
