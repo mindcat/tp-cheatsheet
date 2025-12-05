@@ -2,7 +2,7 @@
 
 *IN PROGRESS*
 
-[PDF is generated here](https://github.com/mindcat/tp-cheatsheet/blob/main/sona-ku-pona.pdf)
+check `out` directory for pdfs
 
 [cols="1,2,2,2,2,2,2,2,2,2,2"]
 |===
