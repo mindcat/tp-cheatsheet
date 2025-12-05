@@ -1,28 +1,44 @@
 #import "@preview/penpo:0.1.0"
-#import "@preview/flagada:1.0.1" : *
+#import "@preview/fontawesome:0.6.0": fa-icon
 // #import "@preview/catppuccin:1.0.1": catppuccin, flavors
 // #show: catppuccin.with(flavors.latte)
 
-Typeset #datetime.today().display()
+#set text(font: ("EB Garamond", "Noto Sans Canadian Aboriginal", "NanumGothic", "Doolittle Garamond"), size: 9pt)
+
 #v(-2em)
 #text(size: 30pt)[#penpo.pona.sitelen[toki pona]]
 #v(-1.2em)
-= toki pona
+= 𐑑𐑴𐑒𐑰 𐑐𐑴𐑯𐑨
 
-Developed by linguist Sonja Lang, toki pona is a language with $tilde$130 words. 
+𐑛𐑦𐑝𐑧𐑤𐑩𐑐𐑑 𐑚𐑲 𐑤𐑦𐑙𐑜𐑢𐑦𐑕𐑑 Sonja✢ 𐑤𐑨𐑙, 𐑑𐑴𐑒𐑰 𐑐𐑴𐑯𐑨 𐑦𐑟 𐑩 𐑤𐑨𐑙𐑜𐑢𐑦𐑡 𐑢𐑦𐑞 $tilde$130 𐑢𐑻𐑛𐑟. 
 
-It uses only 14 IPA phonemes:_ a e i o u j k l m n p s t u w_
+𐑦𐑑 𐑿𐑟𐑩𐑟 𐑴𐑯𐑤𐑦 14 IPA 𐑓𐑴𐑯𐑰𐑥𐑟, 𐑑𐑮𐑨𐑯𐑟𐑤𐑦𐑑𐑼𐑱𐑑𐑩𐑛 𐑦𐑯𐑑𐑵 𐑓𐑴𐑯𐑰𐑥-𐑥𐑨𐑗𐑑 𐑖𐑱𐑝𐑾𐑯 𐑒𐑨𐑮𐑩𐑒𐑑𐑼𐑟:
+#figure(
+  table(
+    columns: (1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr),
+    align: center,
+    inset: 8pt,
 
-== Basic Sentences
+    // Vowels
+    [*a*], [*e*], [*i*], [*o*], [*u*], [*j*], [*k*], 
+    [𐑨], [𐑧], [𐑰], [𐑴], [𐑵], [𐑘], [𐑒],
+    [*l*], [*m*], [*n*], [*p*], [*s*], [*t*], [*w*], 
+    [𐑤], [𐑥], [𐑯], [𐑐], [𐑕], [𐑑], [𐑢], 
+  ),
+  supplement: none,
+  numbering: none, 
+)
 
-The particle li separates the subject from the predicate.
+== 𐑚𐑱𐑕𐑦𐑒 𐑕𐑧𐑯𐑑𐑩𐑯𐑕𐑩𐑟
 
-#penpo.pona.sitelen[soweli li moku] – _The cat is eating._
+𐑞 𐑐𐑸𐑑𐑦𐑒𐑩𐑤 #penpo.pona.sitelen[li] 𐑕𐑧𐑐𐑼𐑱𐑑𐑕 𐑞 𐑕𐑳𐑚𐑡𐑧𐑒𐑑 𐑓𐑮𐑪𐑥 𐑞 𐑐𐑮𐑧𐑛𐑦𐑒𐑩𐑑.
+
+#penpo.pona.sitelen[soweli li moku] – _𐑞 𐑒𐑨𐑑 𐑦𐑟 𐑰𐑑𐑦𐑙._
 
 #penpo.pona.sitelen[jan li lape] – _People sleep._
 
-There is no verb “to be.”
-The part after #penpo.pona.sitelen[li] (predicate) can be a noun or an adjective.
+𐑞𐑺 𐑦𐑟 𐑯𐑴 𐑝𐑻𐑚 «𐑑 𐑚𐑰.»
+𐑞 𐑐𐑸𐑑 𐑭𐑓𐑑𐑼 #penpo.pona.sitelen[li] (𐑐𐑮𐑧𐑛𐑦𐑒𐑩𐑑) 𐑒𐑨𐑯 𐑚𐑰 𐑩 𐑯𐑬𐑯 𐑹 𐑩𐑯 𐑨𐑡𐑦𐑒𐑑𐑦𐑝.
 
 #penpo.pona.sitelen[kili li moku] – _Fruits are food._
 
@@ -34,9 +50,9 @@ If the subject is #penpo.pona.sitelen[mi] or #penpo.pona.sitelen[sina] alone, th
 
 #penpo.pona.sitelen[sina pona] – _You are good._
 
-== Ambiguity
+== 𐑨𐑥𐑚𐑦𐑜𐑿𐑦𐑑𐑦
 
-Toki Pona words are less specific than English words, so one-to-one translation is not as easy.
+𐑑𐑴𐑒𐑰 𐑐𐑴𐑯𐑨 𐑢𐑻𐑛𐑟 𐑸 𐑤𐑧𐑕 𐑕𐑐𐑩𐑕𐑦𐑓𐑦𐑒 𐑞𐑨𐑯 𐑦𐑙𐑜𐑤𐑦𐑖 𐑢𐑻𐑛𐑟, 𐑕𐑴 𐑢𐑳𐑯-𐑑-𐑢𐑳𐑯 𐑑𐑮𐑨𐑯𐑟𐑤𐑱𐑖𐑩𐑯 𐑦𐑟 𐑯𐑪𐑑 𐑨𐑟 𐑰𐑟𐑦.
 
 #penpo.pona.sitelen[mi moku] – _I am eating, I was eating, or I will be eating._
 
@@ -72,7 +88,7 @@ The particle #penpo.pona.sitelen[e] signifies the direct object. This also makes
 
 Words can be modified by appending other words.
 
-#penpo.pona.sitelen[jan lili] – small human, child *?*
+#penpo.pona.sitelen[jan lili] – _Child (small human)._
 
 #penpo.pona.sitelen[tomo mi] – _My house._
 
@@ -82,7 +98,7 @@ To negate a word, append #penpo.pona.sitelen[ala]
 
 #penpo.pona.sitelen[mi lape ala] – _I’m not sleeping._
 
-#penpo.pona.sitelen[jan ala li toki] – No one is talking. *?*
+#penpo.pona.sitelen[jan ala li toki] – _No one is talking._
 
 With multiple modifiers, they all modify the first word.
 
@@ -210,7 +226,7 @@ You can use #penpo.pona.sitelen[o] after a subject to address them.
 
 #penpo.nimi-ijo((Eten: "esun telo en nasa"))
 
-#penpo.pona.sitelen[jan Eten o] - _Eten! (Aiden/Aden)_
+#penpo.pona.sitelen[jan Eten o] - _Eten! (Aden)_
 
 You can place #penpo.pona.sitelen[o] between subject and predicate to express a wish, desire, request, etc. 
 
