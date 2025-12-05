@@ -65,167 +65,167 @@ Kanata (ᕐᑲᓇᑕ) uses the Canadian Aboriginal Syllabary to represent the 46
 
 == Basic Sentences
 
-The particle #penpo.pona.sitelen[li] separates the subject from the predicate.
+The particle #kanata("li") separates the subject from the predicate.
 
-#penpo.pona.sitelen[soweli li moku] – _The cat is eating._
+#kanata("soweli li moku") – _The cat is eating._
 
 #kanata("jan li lape") – _People sleep._
 
 There is no verb “to be.”
-The part after #penpo.pona.sitelen[li] (predicate) can be a noun or an adjective.
+The part after #kanata("li") (predicate) can be a noun or an adjective.
 
-#penpo.pona.sitelen[kili li moku] – _Fruits are food._
+#kanata("kili li moku") – _Fruits are food._
 
-#penpo.pona.sitelen[telo li pona] – _Water is good._
+#kanata("telo li pona") – _Water is good._
 
-If the subject is #penpo.pona.sitelen[mi] or #penpo.pona.sitelen[sina] alone, the #penpo.pona.sitelen[li] is always omitted.
+If the subject is #kanata("mi") or #kanata("sina") alone, the #kanata("li") is always omitted.
 
-#penpo.pona.sitelen[mi moku] – _I eat._
+#kanata("mi moku") – _I eat._
 
-#penpo.pona.sitelen[sina pona] – _You are good._
+#kanata("sina pona") – _You are good._
 
 == Ambiguity
 
 Toki Pona words are less specific than English words, so one-to-one translation is not as easy.
 
-#penpo.pona.sitelen[mi moku] – _I am eating, I was eating, or I will be eating._
+#kanata("mi moku") – _I am eating, I was eating, or I will be eating._
 
 Many words have multiple or general meanings.
 
-#penpo.pona.sitelen[soweli] - _A cat, dog, or any land mammal._
+#kanata("soweli") - _A cat, dog, or any land mammal._
 
-#penpo.pona.sitelen[kili] - _Any fruit or vegetable._
+#kanata("kili") - _Any fruit or vegetable._
 
 Most words can act as nouns, verbs, adjectives, or adverbs.
 
-#penpo.pona.sitelen[telo] – _Water, wet, or to wash._
+#kanata("telo") – _Water, wet, or to wash._
 
-#penpo.pona.sitelen[pona] - _Good, simple, to improve, or wellness._
+#kanata("pona") - _Good, simple, to improve, or wellness._
 
 Nouns have no number and there is no "a" or "the".
 
-#penpo.pona.sitelen[kala] – _A fish, the fish, some fish._
+#kanata("kala") – _A fish, the fish, some fish._
 
-#penpo.pona.sitelen[mi] – _I, me, we, or us._
+#kanata("mi") – _I, me, we, or us._
 
 == Direct objects
 
-The particle #penpo.pona.sitelen[e] signifies the direct object. This also makes the previous word into a verb.
+The particle #kanata("e") signifies the direct object. This also makes the previous word into a verb.
 
-#penpo.pona.sitelen[soweli li moku e telo] – _The animal drinks the water._
+#kanata("soweli li moku e telo") – _The animal drinks the water._
 
-#penpo.pona.sitelen[mi telo e luka] – _I wash my hands._
+#kanata("mi telo e luka") – _I wash my hands._
 
-#penpo.pona.sitelen[sina suli e ona] - _You enlarge it._
+#kanata("sina suli e ona") - _You enlarge it._
 
 == Modifying words
 
 Words can be modified by appending other words.
 
-#penpo.pona.sitelen[jan lili] – _Child (small human)._
+#kanata("jan lili") – _Child (small human)._
 
-#penpo.pona.sitelen[tomo mi] – _My house._
+#kanata("tomo mi") – _My house._
 
-#penpo.pona.sitelen[pilin pona] – _A good feeling._
+#kanata("pilin pona") – _A good feeling._
 
-To negate a word, append #penpo.pona.sitelen[ala]
+To negate a word, append #kanata("ala")
 
-#penpo.pona.sitelen[mi lape ala] – _I’m not sleeping._
+#kanata("mi lape ala") – _I’m not sleeping._
 
-#penpo.pona.sitelen[jan ala li toki] – _No one is talking._
+#kanata("jan ala li toki") – _No one is talking._
 
 With multiple modifiers, they all modify the first word.
 
-#penpo.pona.sitelen[lipu kasi tu] – _Two plant lists._
+#kanata("lipu kasi tu") – _Two plant lists._
 
-#penpo.pona.sitelen[poki laso pimeja] – _A blue and black box._
+#kanata("poki laso pimeja") – _A blue and black box._
 
 You can change the way the modifiers interact using pi .
 
-#penpo.pona.sitelen[lipu pi kasi tu] – _A two-plant list._
+#kanata("lipu pi kasi tu") – _A two-plant list._
 
-#penpo.pona.sitelen[poki pi laso pimeja]– _A dark-blue box._
+#kanata("poki pi laso pimeja")– _A dark-blue box._
 
 
 == Prepositions
 
-#penpo.pona.sitelen[kepeken], #penpo.pona.sitelen[lon], #penpo.pona.sitelen[sama], #penpo.pona.sitelen[tan], and #penpo.pona.sitelen[tawa] can act as prepositions. They go at the end of a statement.
+#kanata("kepeken"), #kanata("lon"), #kanata("sama"), #kanata("tan"), and #kanata("tawa") can act as prepositions. They go at the end of a statement.
 
-#penpo.pona.sitelen[mi moku kepeken ilo] – _I eat with cutlery._
+#kanata("mi moku kepeken ilo") – _I eat with cutlery._
 
-#penpo.pona.sitelen[soweli li lon tomo] – _The animal is in the house._
+#kanata("soweli li lon tomo") – _The animal is in the house._
 
-#penpo.pona.sitelen[sina toki sama waso] – _You sing like a bird!_
+#kanata("sina toki sama waso") – _You sing like a bird!_
 
-#penpo.pona.sitelen[mi kama tan pali] – _I return from work._
+#kanata("mi kama tan pali") – _I return from work._
 
-#penpo.pona.sitelen[ona li toki e ni tawa sina] – _They said that to you._
+#kanata("ona li toki e ni tawa sina") – _They said that to you._
 
 == Questions
 
-There are three ways to form a question. If you want a yes-or-no answer, use verb #penpo.pona.sitelen[ala] verb.
+There are three ways to form a question. If you want a yes-or-no answer, use verb #kanata("ala") verb.
 
-#penpo.pona.sitelen[ona li musi ala musi] - _Is she playing?_
+#kanata("ona li musi ala musi") - _Is she playing?_
 
 This will usually result in one of three types of replies:
 
-#penpo.pona.sitelen[musi] - _Yes: [she is] playing._
+#kanata("musi") - _Yes: [she is") playing._
 
-#penpo.pona.sitelen[musi ala] - _No: [she is] not playing._
+#kanata("musi ala") - _No: [she is") not playing._
 
-#penpo.pona.sitelen[ala] - _No: [she is] not [playing]._
+#kanata("ala") - _No: [she is") not [playing")._
 
-If you want to check something, end the sentence with #penpo.pona.sitelen[anu seme]
+If you want to check something, end the sentence with #kanata("anu seme")
 
-#penpo.pona.sitelen[sina seli anu seme] - _Are you making fire?_
+#kanata("sina seli anu seme") - _Are you making fire?_
 
-#penpo.pona.sitelen[soweli suwi li lon poki anu seme] - _Is the cute cat in a box?_
+#kanata("soweli suwi li lon poki anu seme") - _Is the cute cat in a box?_
 
-Replace unknown info with #penpo.pona.sitelen[seme] to form an open-ended question.
+Replace unknown info with #kanata("seme") to form an open-ended question.
 
-#penpo.pona.sitelen[jan seme li pana e moku telo] - _Who's bringing the drinks?_
+#kanata("jan seme li pana e moku telo") - _Who's bringing the drinks?_
 
-#penpo.pona.sitelen[sina pali e seme] - _What are you making?_
+#kanata("sina pali e seme") - _What are you making?_
 
 == Interjections
 
-Interjections are common. Add #penpo.pona.sitelen[a] for
+Interjections are common. Add #kanata("a") for
 emphasis.
 
-#penpo.pona.sitelen[pona] – _Good! / Great! / Thanks!_
+#kanata("pona") – _Good! / Great! / Thanks!_
 
-#penpo.pona.sitelen[wawa a] – _So powerful!_
+#kanata("wawa a") – _So powerful!_
 
-#penpo.pona.sitelen[toki] – _Hello! / Hi! / Greetings!_
+#kanata("toki") – _Hello! / Hi! / Greetings!_
 
-#penpo.pona.sitelen[lon] – _True! / Correct!_
+#kanata("lon") – _True! / Correct!_
 
-#penpo.pona.sitelen[moku pona] – _Bon appetit!_
+#kanata("moku pona") – _Bon appetit!_
 
 
 == Conjunctions
 
-There are many ways to say "and". Use #penpo.pona.sitelen[en] for 2+ subjects.
+There are many ways to say "and". Use #kanata("en") for 2+ subjects.
 
-#penpo.pona.sitelen[mi en sina li musi mute] – _You and I are playing a lot._
+#kanata("mi en sina li musi mute") – _You and I are playing a lot._
 
-For 2+ predicates, repeat #penpo.pona.sitelen[li].
+For 2+ predicates, repeat #kanata("li").
 
-#penpo.pona.sitelen[soweli ni li lili li suwi] – _This animal is small and cute._
+#kanata("soweli ni li lili li suwi") – _This animal is small and cute._
 
-For direct objects, repeat #penpo.pona.sitelen[e].
+For direct objects, repeat #kanata("e").
 
-#penpo.pona.sitelen[ona li lukin e waso e kala] – _She sees a bird and a fish._
+#kanata("ona li lukin e waso e kala") – _She sees a bird and a fish._
 
 For prepositions, repeat the preposition.
 
-#penpo.pona.sitelen[mi pali e tomo kepeken palisa kepeken kiwen] – _I build the house using sticks and stones._
+#kanata("mi pali e tomo kepeken palisa kepeken kiwen") – _I build the house using sticks and stones._
 
-#penpo.pona.sitelen[anu] can be used to mean “or.”
+#kanata("anu") can be used to mean “or.”
 
-#penpo.pona.sitelen[ni li pona anu ike] – _Is this good or bad?_
+#kanata("ni li pona anu ike") – _Is this good or bad?_
 
-#penpo.pona.sitelen[mi anu sina li tawa esun] – _You or I are going to the store._
+#kanata("mi anu sina li tawa esun") – _You or I are going to the store._
 
 == Loanwords
 
@@ -235,11 +235,11 @@ Toki Pona uses *proper adjectives*, not nouns. These are marked by a box. Only t
 #penpo.nimi-ijo((Tosi: "tan open sin ijo"))
 #penpo.nimi-ijo((Mewika: "mani esin wawa insa kule awen"))
 
-#penpo.pona.sitelen[jan Sonja] – _A person named Sonja, a.k.a. jan Sonja._
+#kanata("jan Sonja") – _A person named Sonja, a.k.a. jan Sonja._
 
-#penpo.pona.sitelen[toki Tosi] - _The language "Tosi" (Deutsch), a.k.a. German._
+#kanata("toki Tosi") - _The language "Tosi" (Deutsch), a.k.a. German._
 
-#penpo.pona.sitelen[ma Mewika li suli] – _The land Mewika (USA) is big._
+#kanata("ma Mewika li suli") – _The land Mewika (USA) is big._
 
 Loanwords should try to follow Toki Pona's rules for syllables:
 - They have exactly one vowel.
@@ -248,70 +248,70 @@ Loanwords should try to follow Toki Pona's rules for syllables:
 - The others must all start with a consonant.
 - The combinations ᑎ, ᔨ, ᕗ, & ᕘ are avoided.
 
-== The word #penpo.pona.sitelen[o]
+== The word #kanata("o")
 
-You can use #penpo.pona.sitelen[o] before a verb to tur into a command.
+You can use #kanata("o") before a verb to tur into a command.
 n it
-#penpo.pona.sitelen[o kute] – _Listen!_
+#kanata("o kute") – _Listen!_
 
-#penpo.pona.sitelen[o moku telo] – _Please drink._
+#kanata("o moku telo") – _Please drink._
 
-You can use #penpo.pona.sitelen[o] after a subject to address them.
+You can use #kanata("o") after a subject to address them.
 
 #penpo.nimi-ijo((Eten: "esun telo en nasa"))
 
-#penpo.pona.sitelen[jan Eten o] - _Eten! (Aden)_
+#kanata("jan Eten o") - _Eten! (Aden)_
 
-You can place #penpo.pona.sitelen[o] between subject and predicate to express a wish, desire, request, etc. 
+You can place #kanata("o") between subject and predicate to express a wish, desire, request, etc. 
 
-#penpo.pona.sitelen[pona o tawa sina] - _Joy to you._
+#kanata("pona o tawa sina") - _Joy to you._
 
-#penpo.pona.sitelen[mi o pali] - _I should be working._
+#kanata("mi o pali") - _I should be working._
 
 Or it can also be a contraction of the first two uses.
 
 #penpo.nimi-ijo((Sasa: "sewi awen suwi alasa"))
 
-#penpo.pona.sitelen[soweli Sasa o moku] - _Eat, Sasa. (Sasza)_
+#kanata("soweli Sasa o moku") - _Eat, Sasa. (Sasza)_
 
 == Preverbs
 
 Preverbs go before verbs to
 modify their meaning.
 
-#penpo.pona.sitelen[mi ken sitelen] - _I can write._
+#kanata("mi ken sitelen") - _I can write._
 
-#penpo.pona.sitelen[waso lili li wile kama suli] - _The small bird wants to become big._
+#kanata("waso lili li wile kama suli") - _The small bird wants to become big._
 
-The words #penpo.pona.sitelen[wile], #penpo.pona.sitelen[kama], #penpo.pona.sitelen[sona], #penpo.pona.sitelen[lukin], #penpo.pona.sitelen[ken], #penpo.pona.sitelen[awen], and #penpo.pona.sitelen[alasa] can be preverbs.
+The words #kanata("wile"), #kanata("kama"), #kanata("sona"), #kanata("lukin"), #kanata("ken"), #kanata("awen"), and #kanata("alasa") can be preverbs.
 
 == Context
 
-The word #penpo.pona.sitelen[la] can be used to
+The word #kanata("la") can be used to
 mark the context of a sentence:
 
-a #penpo.pona.sitelen[la] b means: In the context of a, b. This can mean time, cause, topic, etc.
+a #kanata("la") b means: In the context of a, b. This can mean time, cause, topic, etc.
 
-#penpo.pona.sitelen[sina lon poka mi la mi pilin pona] - _When you are by my side, I feel good._
+#kanata("sina lon poka mi la mi pilin pona") - _When you are by my side, I feel good._
 
-The word #penpo.pona.sitelen[la] is often used to move a prepositional phrase to the front of the sentence.
+The word #kanata("la") is often used to move a prepositional phrase to the front of the sentence.
 
-#penpo.pona.sitelen[sama mi la sina mute] - _Just like me, you know a lot._
+#kanata("sama mi la sina mute") - _Just like me, you know a lot._
 
-#penpo.pona.sitelen[tan seme la sina seli] - _Why are you hot?_
+#kanata("tan seme la sina seli") - _Why are you hot?_
 
-The preposition #penpo.pona.sitelen[lon] can be omitted in this case.
+The preposition #kanata("lon") can be omitted in this case.
 
-#penpo.pona.sitelen[tenpo pimeja la mi lape] - _I sleep [at] night._
+#kanata("tenpo pimeja la mi lape") - _I sleep [at") night._
 
 == Numbers
 
 Combine number words to add them up.
 
-For example, #penpo.pona.sitelen[wan] is 1, #penpo.pona.sitelen[tu] is 2, #penpo.pona.sitelen[luka] is 5, #penpo.pona.sitelen[mute] is 20, #penpo.pona.sitelen[ale] is 100, #penpo.pona.sitelen[tu tu] is 4, and #penpo.pona.sitelen[luka tu wan] is 8.
+For example, #kanata("wan") is 1, #kanata("tu") is 2, #kanata("luka") is 5, #kanata("mute") is 20, #kanata("ale") is 100, #kanata("tu tu") is 4, and #kanata("luka tu wan") is 8.
 
-The word #penpo.pona.sitelen[nanpa] can be used to mark ordinals.
+The word #kanata("nanpa") can be used to mark ordinals.
 
-#penpo.pona.sitelen[lipu nanpa wan li pona] - _The first book is good._
+#kanata("lipu nanpa wan li pona") - _The first book is good._
 
-#penpo.pona.sitelen[nasin nanpa mute luka wan] - _26th Street._
+#kanata("nasin nanpa mute luka wan") - _26th Street._

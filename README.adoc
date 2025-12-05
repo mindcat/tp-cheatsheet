@@ -1,0 +1,72 @@
+= Very derivative toki pona cheatsheet (sona ku pona - simple dictionary knowledge), now transferred to Typst 
+
+*IN PROGRESS*
+
+[PDF is generated here](https://github.com/mindcat/tp-cheatsheet/blob/main/sona-ku-pona.pdf)
+
+[cols="1,2,2,2,2,2,2,2,2,2,2"]
+|===
+|Sitelen: | Pona | Lasina | Kanata | Anku | Kijes | Sewijen | Tewanakali |Alapi |Kililisa | Elina
+
+| English: 
+| link:{https://github.com/mindcat/tp-cheatsheet/tree/main/out}/sona-ku-pona-en-sitelen.pdf[PDF] / link:{https://github.com/mindcat/tp-cheatsheet/tree/main/out}/sona-ku-pona-en-sitelen-4print.pdf[Print]
+| 
+| link:{https://github.com/mindcat/tp-cheatsheet/tree/main/out}/sona-ku-pona-en-kanata-ALPHA.pdf[PDF*] / link:{https://github.com/mindcat/tp-cheatsheet/tree/main/out}/sona-ku-pona-en-kanata-4print-ALPHA.pdf[Print*]
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+| Shavian: 
+| link:{https://github.com/mindcat/tp-cheatsheet/tree/main/out}/sona-ku-pona-shavian-sitelen-ALPHA.pdf[PDF*] / link:{https://github.com/mindcat/tp-cheatsheet/tree/main/out}/sona-ku-pona-shavian-sitelen-4print-ALPHA.pdf[Print*]
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+| Chinese: 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+| Dutch: 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+
+| Arabic: 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+|=== 
+
+*: alpha, do not use

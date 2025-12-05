@@ -1,6 +1,6 @@
 #let print = false
-#let lang-code = "en" // english (en), dutch (nl), ..., in progress: 
-#let script-code = "kanata" // sitelen (default), lasina, kanata
+#let lang-code = "shavian" // english (en), dutch (nl), ..., in progress: 
+#let script-code = "sitelen" // sitelen (default), lasina, kanata
 
 
 
