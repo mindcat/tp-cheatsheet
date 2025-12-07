@@ -1,6 +1,6 @@
 #let print = false
 #let lang-code = "en" // english (en), dutch (nl), ..., in progress: 
-#let script-code = "anku" // sitelen (default), lasina, kanata
+#let script-code = "kijes" // sitelen (default), lasina, kanata
 
 
 
@@ -58,7 +58,7 @@
   alapi: 9pt,
   anku: 9pt,
   kililisa: 9pt,
-  kijes: 9pt,
+  kijes: 8.5pt,
 )
 
 #import "@preview/fontawesome:0.6.0": fa-icon
@@ -191,7 +191,55 @@
   ),
   kililisa: (:),
   kijes: (
-    desc: [],
+    desc: [Kijes (ኪዬ) uses the Ethiopic Ge'ez Script (ግዕዝ) to represent the 46 possible consonant vowel pairs: 
+
+#figure(
+  table(
+    columns: (1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr),
+    align: center,
+    inset: 8pt,
+    
+    // Header
+    table.header(
+      [], [*e*], [*i*], [*o*], [*u*], [*a*], [*#fa-icon("forward-step", size: 5.5pt)*],
+    ),
+
+    // Null Onset (Aleph)
+    [*$not$*], [ኤ], [ኢ], [ኦ], [ኡ], [ኣ], [],
+
+    // p (Pait)
+    [*p-*], [ፔ], [ፒ], [ፖ], [ፑ], [ፓ], [],
+
+    // t (Taw) - ti is disallowed
+    [*t-*], [ቴ], text(fill: gray.lighten(40%))[ቲ], [ቶ], [ቱ], [ታ], [],
+
+    // k (Kaf) - Corrected from Gaml (g)
+    [*k-*], [ኬ], [ኪ], [ኮ], [ኩ], [ካ], [],
+
+    // m (May)
+    [*m-*], [ሜ], [ሚ], [ሞ], [ሙ], [ማ], [],
+
+    // n (Nahas)
+    [*n-*], [ኔ], [ኒ], [ኖ], [ኑ], [ና], [ን],
+
+    // l (Law) - Corrected from Rees (r)
+    [*l-*], [ሌ], [ሊ], [ሎ], [ሉ], [ላ], [],
+
+    // s (Sat)
+    [*s-*], [ሴ], [ሲ], [ሶ], [ሱ], [ሳ], [],
+
+    // j (Yaman) - ji is disallowed
+    [*j-*], [ዬ], text(fill: gray.lighten(40%))[ዪ], [ዮ], [ዩ], [ያ], [],
+
+    // w (Wawe) - Corrected from Ve (v); wo/wu are disallowed
+    [*w-*], [ዌ], [ዊ], text(fill: gray.lighten(40%))[ዎ], text(fill: gray.lighten(40%))[ዉ], [ዋ], [],
+  ),
+  supplement: none,
+  numbering: none, 
+  caption: [
+    Characters are based on the standard Geʽez orders. The 6th order (Səds) of *Nahas* (*ን*) is used for the syllable coda.
+  ],
+)],
     loan-rules: [*WRITE PROPER RULES*]
   ),
 )
