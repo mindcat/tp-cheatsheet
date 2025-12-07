@@ -1,4 +1,6 @@
 // uses tp-dataset to convert arrays of toki pona lemma's to a given language
+#import "@preview/penpo:0.1.0"
+#import "control.typ": *
 
 #let wordlist-data = toml("tp-dataset/categories/typst.toml")
 #let word-file-paths = wordlist-data.wordlist.list
@@ -15,7 +17,9 @@
 #let word-in-script(word-lemma, script) = {
   let word-data = words-data.at(word-lemma, default: none)
   
-  if word-data != none {
+  if (word-lemma in script-names.at(script-code)) {
+    script-names.at(script-code).at(word-lemma)
+  } else if word-data != none {
     word-data.script.at(script, default: word-lemma) 
   } else {
     word-lemma
@@ -23,6 +27,19 @@
 }
 
 #let convert(sentence, script) = {
+  
+  if script == "sitelen" {
+    return {
+      penpo.nimi-ijo((Sonja: "sona olin nasa jasima alasa"))
+      penpo.nimi-ijo((Tosi: "tan open sin ijo"))
+      penpo.nimi-ijo((Mewika: "mani esin wawa insa kule awen"))
+      penpo.nimi-ijo((Eten: "esun telo en nasa"))
+      penpo.nimi-ijo((Sasa: "sewi awen suwi alasa"))
+      [#penpo.pona.sitelen[#sentence]]}
+  } else if script == "lasina" {
+    return sentence
+  }
+
   let parts = sentence.split()
   let converted-sentence = () 
 
@@ -31,6 +48,10 @@
   }
   
   converted-sentence.join(" ")
+}
+
+#let sitelen(sentence) = {
+  convert(sentence, "sitelen")
 }
 
 #let kanata(sentence) = {

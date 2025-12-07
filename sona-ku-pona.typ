@@ -28,7 +28,9 @@
 
 #fa-icon("calendar-day"): #datetime.today().display()
 
-#include "translations/wan-" + lang-code + "-" + script-code + ".typ"
+#include "translations/wan-" + lang-code + ".typ"
+
+// #include "translations/wan-" + lang-code + "-" + script-code + ".typ"
 
 #pagebreak()
 
