@@ -1,6 +1,7 @@
 #import "@preview/penpo:0.1.0"
 #import "@preview/tiaoma:0.3.0": qrcode
 // #import "@preview/flagada:1.0.1" : flag
+#import "pen.typ": *
 #import "flagada/flags.typ": flag
 #import "@preview/catppuccin:1.0.1": catppuccin, flavors, get-flavor
 #show: catppuccin.with(flavors.latte)
@@ -53,18 +54,19 @@
       #align(center + horizon)[#text(size: 15pt)[#penpo.pona.sitelen[#word.lemma]]]
     ])],
     stack(dir: ttb, spacing: 0.2em,
-      [#text(size: 6pt)[
+      [#text(size: script-size.at(script-code)-3pt)[
         #if script-code=="sitelen" {
           [*#word.lemma*]
         } else if script-code=="lasina" {
           [*#word.lemma*]
         } else {
-          [*#word.script.at(script-code)*]
+          // [*#word.script.at(script-code)*]
+          [*#convert(word.lemma, script-code)*]
         }
       ]#box(width: 1fr)[]#text(size: 5pt)[#word.origin.word 
       #if word.origin.iso.len() == 2 {flag(word.origin.iso, height: 0.65em)}
       ]#box(width: 0.2em)[]],
-      [#par(leading: 0.2em, )[#text(size: 6pt)[#word.definitions.at(lang, default: "Definition missing for " + lang)]]]
+      [#par(leading: 0.2em, )[#text(size: script-size.at(script-code)-3pt)[#word.definitions.at(lang, default: "Definition missing for " + lang)]]]
     ),
   )
   // ]

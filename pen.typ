@@ -26,6 +26,17 @@
   }
 }
 
+#let word-in-font(word-lemma, script) = {
+  
+  if (word-lemma in script-names.at(script-code)) {
+    script-names.at(script-code).at(word-lemma)
+  } else if script == "telo" {
+    text(font: "sitelen telo")[#word-lemma]
+  } else {
+    word-lemma
+  }
+}
+
 #let convert(sentence, script) = {
   
   if script == "sitelen" {
@@ -44,7 +55,11 @@
   let converted-sentence = () 
 
   for word in parts {
-    converted-sentence.push(word-in-script(word, script))
+    if script == "telo" {
+      converted-sentence.push(word-in-font(word, script))
+    } else {
+      converted-sentence.push(word-in-script(word, script))
+    }
   }
   
   converted-sentence.join(" ")

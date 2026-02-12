@@ -9,7 +9,7 @@
 #v(-2em)
 #text(size: 30pt)[#penpo.pona.sitelen[toki pona]]
 #v(-1.2em)
-= toki pona
+= #if script-code=="sitelen" [toki pona] else [#convert("toki pona", script-code)]
 
 #set text(size: script-size.at(script-code))
 
@@ -125,11 +125,11 @@ There are three ways to form a question. If you want a yes-or-no answer, use ver
 
 This will usually result in one of three types of replies:
 
-#convert("musi", script-code) - _Yes: [she is", script-code) playing._
+#convert("musi", script-code) - _Yes: she is playing._
 
-#convert("musi ala", script-code) - _No: [she is", script-code) not playing._
+#convert("musi ala", script-code) - _No: she is not playing._
 
-#convert("ala", script-code) - _No: [she is", script-code) not [playing", script-code)._
+#convert("ala", script-code) - _No: she is not playing._
 
 If you want to check something, end the sentence with #convert("anu seme", script-code)
 

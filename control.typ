@@ -1,6 +1,6 @@
-#let print = false
-#let lang-code = "en" // english (en), dutch (nl), ..., in progress: 
-#let script-code = "kijes" // sitelen (default), lasina, kanata
+#let print = true
+#let lang-code = "zh" // english (en), dutch (nl), ..., in progress: 
+#let script-code = "sitelen" // sitelen (default), lasina, kanata
 
 
 
@@ -15,8 +15,9 @@
 
 #let script-credit = (
   kanata: [Toki pona adaptation of Canadian Aboriginal Syllabary by jan Sajen.],
-  sitelen: "",
-  lasina: "",
+  sitelen: [],
+  telo: [By u/efofecks],
+  lasina: [],
   sewijen: [Toki pona adaptation of Shavian by myself (fix)], // shavian
   tewanakali: [Toki pona adaptation of Devanagiri ], // devanagiri?
   alapi: [Toki pona adaptation of Arabic ], // arabic
@@ -24,11 +25,12 @@
   kililisa: [Toki pona adaptation of Cyrillic], // cyrillic
   elina: [Toki pona adaptation of Greek],
   kijes: [Toki pona adaptation of Ge'ez by #[#show: pp => [#penpo.pona.sitelen[#pp]];#penpo.nimi-ijo((Eli: "ilo lawa jasima"))#link("https://github.com/mindcat")[jan Eli]].]  
-)
+) 
 
 #let script-dict = (
   kanata: [ᕐᑲᓇᑕ], // canadian aboriginal syllabics (personal favorite)
   sitelen: [#penpo.pona.sitelen[sitelen pona]], // default logography
+  telo: [sipelen telo], // japanese inspired logography
   lasina: "latin", // default for anyone already familiar with the latin script
   sewijen: [𐑖𐑱𐑝𐑾𐑯], // shavian
   tewanakali: [देवनागरी], // devanagiri?
@@ -41,6 +43,7 @@
 #let script-names = (
   kanata: (:),
   lasina: (:),
+  telo: (:),
   sewijen: (:),
   tewanakali: (:),
   alapi: (:),
@@ -50,13 +53,14 @@
 )
 
 #let script-size = (
-  kanata: 8.5pt,
+  kanata: 8.3pt,
   sitelen: 9pt,
-  lasina: 9pt,
+  telo: 9pt,
+  lasina: 8.6pt,
   sewijen: 9pt,
   tewanakali: 9pt,
   alapi: 9pt,
-  anku: 9pt,
+  anku: 8.5pt,
   kililisa: 9pt,
   kijes: 8.5pt,
 )
@@ -131,13 +135,42 @@
       - The others must all start with a consonant.
       - The combinations wu, wo, ji, ti, nm and nn are avoided.]
     ),
-  lasina: (:),
-  sewijen: (:),
-  tewanakali: (:),
+  telo: (
+    desc: [],
+    loan-rules: [
+      - They have exactly one vowel.
+      - They may have n at the end.
+      - The first syllable in a word may start with a vowel.
+      - The others must all start with a consonant.
+      - The combinations wu, wo, ji, ti, nm and nn are avoided.]
+    ),
+  lasina: (desc:[],
+    loan-rules: [
+      - They have exactly one vowel.
+      - They may have n at the end.
+      - The first syllable in a word may start with a vowel.
+      - The others must all start with a consonant.
+      - The combinations wu, wo, ji, ti, nm and nn are avoided.]),
+  sewijen: (desc:[#figure(
+  table(
+    columns: (1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr),
+    align: center,
+    inset: 8pt,
+
+    // Vowels
+    [*a*], [*e*], [*i*], [*o*], [*u*], [*j*], [*k*], 
+    [𐑨], [𐑧], [𐑰], [𐑴], [𐑵], [𐑘], [𐑒],
+    [*l*], [*m*], [*n*], [*p*], [*s*], [*t*], [*w*], 
+    [𐑤], [𐑥], [𐑯], [𐑐], [𐑕], [𐑑], [𐑢], 
+  ),
+  supplement: none,
+  numbering: none, 
+)],loan-rules:[]),
+  tewanakali: (desc: [], loan-rules: []),
   alapi: (:),
   anku: (
     desc: [
-      Anku (안구) uses the Korean Hangeul (한글) to represent the 46 possible consonant vowel pairs: 
+      Anku (안구) uses Korean Hangeul (한글) to represent the 46 possible consonant vowel pairs: 
 
       #figure(
         table(
@@ -187,7 +220,12 @@
         ],
       )
     ],
-    loan-rules: [*WRITE PROPER RULES*]
+    loan-rules: [
+      - They have exactly one vowel.
+      - They may have ㄴ at the end.
+      - The first syllable in a word may start with a vowel.
+      - The others must all start with a consonant.
+      - The combinations 우, 워, 이, 디, ㄴㅁ and ㄴㄴ are avoided.]
   ),
   kililisa: (:),
   kijes: (
